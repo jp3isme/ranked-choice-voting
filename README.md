@@ -11,13 +11,13 @@ Under **Responses** click **View responses in sheets** and then under **File** s
 In a console, run the script using the `-i` flag to set the input file:
 
 ```bash
-python -i google-form-responses.tsv
+python voting.py -i google-form-responses.tsv
 ```
 
 Use `>` to save the output to a file:
 
 ```bash
-python -i google-form-responses.tsv > results.txt
+python voting.py -i google-form-responses.tsv > results.txt
 ```
 
 
